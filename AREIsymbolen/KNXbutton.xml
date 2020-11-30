@@ -1,0 +1,35 @@
+<shape name="KNX Druktoets" h="64" w="90" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.5" perimeter="0" name="L" />
+    <constraint x="1" y="0.5" perimeter="0" name="R" />
+    <constraint x="0.5" y="0" perimeter="0" name="T" />
+    <constraint x="0.5" y="1" perimeter="0" name="B" />
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <rect x="0" y="0" w="90" h="64" />
+    <fillstroke />
+    <path>
+      <move x="16" y="0" />
+      <line x="16" y="64" />
+      <move x="8" y="8" />
+      <line x="8" y="56" />
+      <move x="8" y="8" />
+      <line x="2" y="16" />
+      <move x="8" y="8" />
+      <line x="14" y="16" />
+      <move x="8" y="56" />
+      <line x="2" y="48" />
+      <move x="8" y="56" />
+      <line x="14" y="48" />
+      <move x="16" y="64" />
+      <line x="90" y="0" />
+    </path>
+    <fillstroke />
+    <ellipse x="54" y="28" w="32" h="32" />
+    <fillstroke />
+    <ellipse x="58" y="32" w="24" h="24" />
+    <fillstroke />
+  </foreground>
+</shape>

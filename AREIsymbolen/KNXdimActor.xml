@@ -1,0 +1,36 @@
+<shape name="KNX Dimactor" h="64" w="90" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.5" perimeter="0" name="L" />
+    <constraint x="1" y="0.5" perimeter="0" name="R" />
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <rect x="0" y="0" w="90" h="64" />
+    <fillstroke />
+    <path>
+      <move x="16" y="0" />
+      <line x="16" y="64" />
+      <move x="8" y="8" />
+      <line x="8" y="56" />
+      <move x="8" y="8" />
+      <line x="2" y="16" />
+      <move x="8" y="8" />
+      <line x="14" y="16" />
+      <move x="8" y="56" />
+      <line x="2" y="48" />
+      <move x="8" y="56" />
+      <line x="14" y="48" />
+      <move x="18" y="32" />
+      <line x="32" y="32" />
+      <line x="72" y="16" />
+      <move x="72" y="32" />
+      <line x="84" y="32" />
+      <move x="32" y="56" />
+      <line x="72" y="56" />
+      <line x="72" y="40" />
+      <line x="32" y="56" />
+    </path>
+    <fillstroke />
+  </foreground>
+</shape>

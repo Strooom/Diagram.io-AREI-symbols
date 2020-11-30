@@ -1,0 +1,21 @@
+<shape name="Zekering" h="96" w="96" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="0" name="N" />
+    <constraint x="0.5" y="1" perimeter="0" name="S" />
+  </connections>
+  <background>
+    <path>
+      <move x="48" y="96" />
+      <line x="48" y="76" />
+      <line x="6" y="30" />
+      <line x="0" y="35" />
+      <line x="3" y="38" />
+      <line x="8" y="34" />
+      <move x="48" y="0" />
+      <line x="48" y="20" />
+    </path>
+  </background>
+  <foreground>
+    <fillstroke />
+  </foreground>
+</shape>

@@ -1,0 +1,40 @@
+<shape name="Stopcontact" h="100" w="50" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.5" perimeter="0" name="L" />
+  </connections>
+  <background>
+    <path>
+      <move x="0" y="0" />
+      <line x="0" y="96" />
+      <move x="36" y="0" />
+      <line x="36" y="12" />
+      <arc rx="36" ry="36" x-axis-rotation="0" sweep-flag="0" x="36" y="84" />
+      <line x="36" y="96" />
+    </path>
+  </background>
+  <foreground>
+    <fillstroke />
+  </foreground>
+</shape>
+
+
+<shape h="100" w="100" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0" perimeter="1" />
+    <constraint x="0.5" y="0" perimeter="1" />
+    <constraint x="1" y="0" perimeter="1" />
+    <constraint x="0" y="0.5" perimeter="1" />
+    <constraint x="1" y="0.5" perimeter="1" />
+    <constraint x="0" y="1" perimeter="1" />
+    <constraint x="0.5" y="1" perimeter="1" />
+    <constraint x="1" y="1" perimeter="1" />
+  </connections>
+  <background>
+    <rect x="0" y="0" w="100" h="100" />
+  </background>
+  <foreground>
+    <fillstroke />
+    <ellipse x="0" y="0" w="100" h="100" />
+    <stroke />
+  </foreground>
+</shape>

@@ -1,0 +1,18 @@
+<shape name="stopcontact" h="100" w="50" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.5" perimeter="0" name="L" />
+  </connections>
+  <background>
+    <rect x="0" y="0" w="50" h="100" />
+  </background>
+  <foreground>
+ <fillstroke />
+    <path>
+      <move x="50" y="0" />
+      <line x="50" y="16" />
+      <arc rx="20" ry="20" x-axis-rotation="0" sweep-flag="0" x="50" y="84" />
+      <line x="50" y="100" />
+     </path>
+    <fillstroke />
+  </foreground>
+</shape>

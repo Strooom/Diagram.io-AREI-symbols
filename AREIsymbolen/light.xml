@@ -1,0 +1,17 @@
+<shape name="Lichtpunt" h="64" w="64" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0.5" perimeter="0" />
+    <constraint x="0.5" y="1" perimeter="0" name="S" />
+  </connections>
+  <background>
+    <path>
+      <move x="0" y="0" />
+      <line x="64" y="64" />
+      <move x="64" y="0" />
+      <line x="0" y="64" />
+    </path>
+  </background>
+  <foreground>
+    <fillstroke />
+  </foreground>
+</shape>

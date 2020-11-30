@@ -1,0 +1,15 @@
+<shape name="Transformator" h="64" w="96" aspect="fixed" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.5" perimeter="0" name="L" />
+    <constraint x="1" y="0.5" perimeter="0" name="R" />
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <fillstroke />
+    <ellipse x="0" y="0" w="64" h="64" />
+    <stroke />
+    <ellipse x="32" y="0" w="64" h="64" />
+    <stroke />
+  </foreground>
+</shape>
